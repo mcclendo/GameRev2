@@ -1,0 +1,62 @@
+Tweaks Needed:
+
+-Fire needs to do damage to health
+	-all are from one blueprint (which may be in the starter content)
+	-already has a bp to  do dmaage but idk why it doesnt work
+	-also i have a blend effect going that turns the screen to white/black when you get too close to add to the feel 
+		but its not working unless you get super close so the blend radius so that might have to change but idk about the camra angle end what not
+	-damage needs to be minimal but if you touch too much fire you die (maybe like 3 secs in a fire will kill you)
+	-the entire room NEEDS to have a sound volume that plays the alarm sound whlie the character is in it (sound is in my content)
+	-the fire sound's reach is extremely far idk how to change that. (you can hear the fire in the arena but no biggy it adds to the game)
+
+-Acid Pool needs to do damage to health
+	-is a blueprint
+	-has a bp to do damage but doesnt work, it jsut prints to screen
+	-damage needs to be instant death
+	-Acid Pool Claw needs to push you when moving
+		-currently you can't run through them but they can move through you if you aren't moving
+
+-Take a quick look at the laser room (maybe try to get past the room)
+	-sometimes the laser beams don't appear unless you get really close. idk what it is but its a minor thing
+	-also the room NEEDS some laser sounds too like the fire room
+	-right now the lasers dont damage enemies (change that if you want (same for acid pool but for now i think we can just have the turrets in those two rooms) )	
+
+-Combo Mechanic
+	-needs to be polished in terms of where the text apears, what the text looks like, and if any on-screen affects happen (e.x. explosions, etc)
+
+-Enemies need more health or we need to do less damage
+	-also make sure they actually do damage (i turned that off in my version)
+
+-Idk if we want the user to see how much damage the enemies do (e.x. 20 or 20 or etc) if not just dont print to screen
+
+-Mess with the enemies spawners and the location if you want to
+
+-ENEMY SPAWNERS need to spawn in each room (currently still spawn from one spawner)
+
+
+Mechanics Needed:
+
+-Need to have background music
+
+-Already have the respawn points but need to have the player spawn on the correct point once they pass it
+
+-If possible the enemies in a room need to re/despawn when you die, when you get too far and when you frop into the arena (so as not to slow the game down or have all them stuck above the level)
+
+-Once the player falls down into the "arena" a trigger volume needs to start the arena music (if its going to be different)
+	-Also the 3 WAVE mechanics needs to be implemented
+
+-Add the turrets into places where you think appropriate (if in arena maybe make them respawn after some time)
+
+-Some kind of "Youve Won!" should show after the 3 waves are done (end game)
+
+Notes:
+-there might be 2 blueprints in the starter content (one for fire and spark) that may need to be moved
+-there is atleast 2 material in the GtFreeMaterials folder that i created. (yellow_tech and new green)
+	-i copied them over but if it gives you trouble thats where they are
+-some lighting doesnt build correctly so they fall back to dynamic shadows (not a big deal but will give errors when building)
+
+
+AFTER EVERYTHING IS DONE ABOVE:
+-maybe we can change the acid pool mesh to a better "water" mesh but i just didnt get around to it
+-Add more power-ups like the health one
+-If we can add vince's pause menu (or make one) that would make the user's life better
